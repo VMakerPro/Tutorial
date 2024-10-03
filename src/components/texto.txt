@@ -1,0 +1,4 @@
+
+los archivos .astro que generarán HTML pero que no se convertirán en nuevas páginas de tu sitio web, son componentes y quedan en directorio /components
+
+los componentes no son paginas webs, no generan una pagina web (como about, index, etc), es codigo que se utiliza en paginas que sí generan pagina web.
