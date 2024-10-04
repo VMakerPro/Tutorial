@@ -16,8 +16,8 @@ const identity = {
 
 const skills = ["HTML", "CSS", "JavaScript", "React", "Astro", "Writing Docs"];
 import '../styles/global.css';
-import Navigation from "../components/Navigation.astro";
 import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
 ---
 
 <!doctype html>
@@ -45,7 +45,7 @@ import Footer from '../components/Footer.astro';
   </head>
 
   <body>
-    <Navigation />
+    <Header />
 
     <h1>{pageTitle}</h1>
     <p>Here are a few facts about me:</p>
